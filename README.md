@@ -1,5 +1,5 @@
 # Models, repos, and libaries I used
-A collection of huggingface AI models/libraries and github repos (with links).
+A collection of huggingface AI models/libraries and github repos (with links) I play with for private study.
 
 ---
 
