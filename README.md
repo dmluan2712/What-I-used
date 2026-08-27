@@ -1,5 +1,5 @@
-# Models and repos I used
-A collection of huggingface AI models and github repos (with links).
+# Models, repos, and libaries I used
+A collection of huggingface AI models/libraries and github repos (with links).
 
 ---
 
@@ -34,16 +34,17 @@ A collection of huggingface AI models and github repos (with links).
 *(Crucial for running large diffusion or language models on modest VRAM setups like an 8GB GPU).*
 
 * **FlashAttention**:  
-   [GitHub: Dao-AILab/flash-attention](https://github.com/Dao-AILab/flash-attention)  
-   **Paper**: *FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness* (Dao et al., 2022) — [arXiv:2205.14135](https://arxiv.org/abs/2205.14135)
+   [GitHub: Dao-AILab/flash-attention](https://github.com/Dao-AILab/flash-attention)
+   [Prebuilt wheels](https://github.com/mjun0812/flash-attention-prebuild-wheels)
+   **Paper**: *FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness* (Dao et al., 2022) [arXiv:2205.14135](https://arxiv.org/abs/2205.14135)
 
 * **SageAttention**: 
-   [GitHub: aagroup/SageAttention](https://github.com/aagroup/SageAttention)  
-   **Paper**: *SageAttention: Accurate 8-Bit Attention for Plug-and-play Inference Acceleration* (Zhang et al., 2024) — [arXiv:2410.02367](https://arxiv.org/abs/2410.02367)
+   [GitHub: aagroup/SageAttention](https://github.com/aagroup/SageAttention)
+   **Paper**: *SageAttention: Accurate 8-Bit Attention for Plug-and-play Inference Acceleration* (Zhang et al., 2024) [arXiv:2410.02367](https://arxiv.org/abs/2410.02367)
 
 * **Triton (OpenAI Triton)**: 
    [GitHub: triton-lang/triton](https://github.com/triton-lang/triton)  
-   **Paper**: *Triton: An Intermediate Language and Compiler for Tile-Based Neural Network Generators* (Tillet et al., 2019) — [MAPL '19 Conference Proceedings](https://dl.acm.org/doi/10.1145/3315508.3329973)
+   **Paper**: *Triton: An Intermediate Language and Compiler for Tile-Based Neural Network Generators* (Tillet et al., 2019) [MAPL '19 Conference Proceedings](https://dl.acm.org/doi/10.1145/3315508.3329973)
 
 ## 🎙️ 4. Voice Cloning
 
@@ -135,14 +136,14 @@ A collection of huggingface AI models and github repos (with links).
 
 * **`llama.cpp` (`llama-quantize`)**: Toolkit for quantizing LLMs into the GGUF format across various bit-widths (e.g., `Q4_K_M`, `Q5_K_M`, `Q8_0`).  
    [GitHub: ggerganov/llama.cpp](https://github.com/ggerganov/llama.cpp)  
-   **GGUF Format Overview**: *GGUF Specification and Quantization Design* — [GGUF Specification](https://github.com/ggerganov/ggml/blob/master/docs/gguf.md) / [IST-DASLab GPTQ-GGUF Paper](https://github.com/IST-DASLab/gptq-gguf-toolkit)
+   **GGUF Format Overview**: *GGUF Specification and Quantization Design* [GGUF Specification](https://github.com/ggerganov/ggml/blob/master/docs/gguf.md) / [IST-DASLab GPTQ-GGUF Paper](https://github.com/IST-DASLab/gptq-gguf-toolkit)
 
 * **INT8 Quantization**: Uniform integer quantization maps high-precision floating-point weights ($FP32$/$FP16$) down to $INT8$ precision
-   **Paper**: *A White Paper on Neural Network Quantization* (Nagel et al., 2021) — [arXiv:2106.08295](https://arxiv.org/abs/2106.08295)  
+   **Paper**: *A White Paper on Neural Network Quantization* (Nagel et al., 2021) [arXiv:2106.08295](https://arxiv.org/abs/2106.08295)  
    **Paper**: *Integer Quantization for Deep Learning Inference: Principles and Empirical Evaluation* (Wu et al., 2020) — [arXiv:2004.09602](https://arxiv.org/abs/2004.09602)
 
 * **Quantization Scheme Comparisons**:  
-   [Hugging Face Quantization Guide & Method Overview](https://huggingface.co/docs/transformers/main_classes/quantization) — Comprehensive comparison comparing `bitsandbytes` ($INT8$ / $FP4$), `GPTQ`, `AWQ`, `AQLM`, and `GGUF` precision, speed, VRAM consumption, and quality trade-offs.
+   [Hugging Face Quantization Guide & Method Overview](https://huggingface.co/docs/transformers/main_classes/quantization) Comprehensive comparison of `bitsandbytes` ($INT8$ / $FP4$), `GPTQ`, `AWQ`, `AQLM`, and `GGUF` precision, speed, VRAM consumption, and quality trade-offs.
 
 ---
 ## Bonus: Low VRAM Platforms
