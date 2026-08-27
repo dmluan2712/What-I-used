@@ -3,7 +3,40 @@ A collection of huggingface models and github repos (with links) I used for priv
 
 ---
 
-## 🎨 1. Image Generation
+## 🛠️ 1. Fine-Tuning Tools
+
+* **Kohya_ss (kohya-ss/sd-scripts / gui)**: GUI and training tools for fine-tuning Stable Diffusion and LoRAs.  
+  👉 [GitHub: bmaltais/kohya_ss](https://github.com/bmaltais/kohya_ss)
+* **Fluxgym**: Lightweight Web UI for fine-tuning FLUX models and LoRAs.  
+  👉 [GitHub: cocktailpeanut/fluxgym](https://github.com/cocktailpeanut/fluxgym)
+
+## 💬 2. Local LLMs (Large Language Models)
+
+### Interface
+* **KoboldCPP**: Lightweight, cross-platform UI and API server for running local LLMs.  
+  👉 [GitHub: LostRuins/koboldcpp](https://github.com/LostRuins/koboldcpp)
+
+### Models
+* **Qwen 2.5 / Qwen 3.5 Series**:  
+  👉 [Hugging Face: Qwen/Qwen2.5-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-7B-Instruct)
+* **Mistral NeMo 12B**:  
+  👉 [Hugging Face: mistralai/Mistral-Nemo-Instruct-2407](https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407)
+* **Devstral series**:
+  👉 [Hugging Face: mistralai/Devstral-Small-2505](mistralai/Devstral-Small-2505)
+---
+
+
+## 🎙️ 3. Voice Cloning
+
+* **RVC (Retrieval-based Voice Conversion)**: Voice conversion framework based on VITS.  
+  👉 [GitHub: RVC-Project/Retrieval-based-Voice-Conversion-WebUI](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI)
+* **GPT-SoVITS**: Zero-shot and few-shot TTS / Voice Cloning framework.  
+  👉 [GitHub: RVC-Boss/GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS)  
+  *(Note: Used to clone voice for teaching an online math course at UConn).*
+
+---
+
+## 🎨 4. Image Generation
 
 ### Interfaces & Workflows
 * **ComfyUI**: Node-based graphical interface for customizable image generation workflows.  
@@ -44,31 +77,8 @@ A collection of huggingface models and github repos (with links) I used for priv
   👉 [Hugging Face: tencent/HunyuanVideo](https://huggingface.co/tencent/HunyuanVideo)
 
 ---
-## 🛠️ 2. Fine-Tuning Tools
 
-* **Kohya_ss (kohya-ss/sd-scripts / gui)**: GUI and training tools for fine-tuning Stable Diffusion and LoRAs.  
-  👉 [GitHub: bmaltais/kohya_ss](https://github.com/bmaltais/kohya_ss)
-* **Fluxgym**: Lightweight Web UI for fine-tuning FLUX models and LoRAs.  
-  👉 [GitHub: cocktailpeanut/fluxgym](https://github.com/cocktailpeanut/fluxgym)
-
----
-
-## 💬 3. Local LLMs (Large Language Models)
-
-### Interface
-* **KoboldCPP**: Lightweight, cross-platform UI and API server for running local LLMs.  
-  👉 [GitHub: LostRuins/koboldcpp](https://github.com/LostRuins/koboldcpp)
-
-### Models
-* **Qwen 2.5 / Qwen 3.5 Series**:  
-  👉 [Hugging Face: Qwen/Qwen2.5-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-7B-Instruct)
-* **Mistral NeMo 12B**:  
-  👉 [Hugging Face: mistralai/Mistral-Nemo-Instruct-2407](https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407)
-* **Devstral series**:
-  👉 [Hugging Face: mistralai/Devstral-Small-2505](mistralai/Devstral-Small-2505)
----
-
-## 🎭 4. Face Swapping
+## 🎭 5. Face Swapping
 ### Interface
 * **FaceFusion**: Next-generation face swapper and enhancer tool.  
   👉 [GitHub: facefusion/facefusion](https://github.com/facefusion/facefusion)
@@ -78,16 +88,6 @@ A collection of huggingface models and github repos (with links) I used for priv
   👉 [Hugging Face: ApacheOne/insightface (inswapper_128.onnx)](https://huggingface.co/ApacheOne/insightface/blob/main/insightface/inswapper_128.onnx)
 * **InsightFace**: 2D & 3D deep face analysis library for face detection, recognition, and swapping.  
   👉 [GitHub: deepinsight/insightface](https://github.com/deepinsight/insightface)
-
----
-
-## 🎙️ 5. Voice Cloning
-
-* **RVC (Retrieval-based Voice Conversion)**: Voice conversion framework based on VITS.  
-  👉 [GitHub: RVC-Project/Retrieval-based-Voice-Conversion-WebUI](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI)
-* **GPT-SoVITS**: Zero-shot and few-shot TTS / Voice Cloning framework.  
-  👉 [GitHub: RVC-Boss/GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS)  
-  *(Note: Used to clone voice for teaching an online math course at UConn).*
 
 ---
 
