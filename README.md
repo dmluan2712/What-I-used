@@ -1,5 +1,5 @@
 # Models and repos I used
-A collection of huggingface models and github repos (with links) I used for private study
+A collection of huggingface AI models and github repos (with links).
 
 ---
 
@@ -33,15 +33,15 @@ A collection of huggingface models and github repos (with links) I used for priv
 
 *(Crucial for running large diffusion or language models on modest VRAM setups like an 8GB GPU).*
 
-* **FlashAttention**: An IO-aware exact attention algorithm that drastically speeds up attention computations and reduces memory overhead from quadratic to linear scaling by leveraging GPU hardware hierarchy (SRAM/HBM tiling).  
+* **FlashAttention**:  
    [GitHub: Dao-AILab/flash-attention](https://github.com/Dao-AILab/flash-attention)  
    **Paper**: *FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness* (Dao et al., 2022) — [arXiv:2205.14135](https://arxiv.org/abs/2205.14135)
 
-* **SageAttention**: A plug-and-play low-bit (8-bit / 4-bit) attention quantization framework that accelerates model inference with virtually no loss in end-to-end metric quality.  
+* **SageAttention**: 
    [GitHub: aagroup/SageAttention](https://github.com/aagroup/SageAttention)  
    **Paper**: *SageAttention: Accurate 8-Bit Attention for Plug-and-play Inference Acceleration* (Zhang et al., 2024) — [arXiv:2410.02367](https://arxiv.org/abs/2410.02367)
 
-* **Triton (OpenAI Triton)**: A C-like Python-based programming language and compiler that enables developers to write highly optimized custom GPU kernels without direct low-level CUDA programming.  
+* **Triton (OpenAI Triton)**: 
    [GitHub: triton-lang/triton](https://github.com/triton-lang/triton)  
    **Paper**: *Triton: An Intermediate Language and Compiler for Tile-Based Neural Network Generators* (Tillet et al., 2019) — [MAPL '19 Conference Proceedings](https://dl.acm.org/doi/10.1145/3315508.3329973)
 
@@ -49,7 +49,7 @@ A collection of huggingface models and github repos (with links) I used for priv
 
 * **RVC (Retrieval-based Voice Conversion)**: Voice conversion framework based on VITS.  
    [GitHub: RVC-Project/Retrieval-based-Voice-Conversion-WebUI](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI)
-* **GPT-SoVITS**: Zero-shot and few-shot TTS / Voice Cloning framework.  
+* **GPT-SoVITS**: Voice Cloning framework.  
    [GitHub: RVC-Boss/GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS)  
   *(Note: Used to clone voice for teaching an online math course at UConn).*
 
@@ -106,7 +106,7 @@ A collection of huggingface models and github repos (with links) I used for priv
 
 ## 🎭 6. Face Swapping
 ### Interface
-* **FaceFusion**:
+* **FaceFusion**: a convenient GUI to implement inswapper_128 by InsightFace
    [GitHub: facefusion/facefusion](https://github.com/facefusion/facefusion)
 
 ### Models & Libraries
@@ -133,19 +133,19 @@ A collection of huggingface models and github repos (with links) I used for priv
 
 ## ⚙️ 7. Model Quantization Tools & Resources
 
-* **`llama.cpp` (`llama-quantize`)**: The premier C/C++ engine and toolkit for quantizing LLMs into the GGUF format across various bit-widths (e.g., `Q4_K_M`, `Q5_K_M`, `Q8_0`).  
+* **`llama.cpp` (`llama-quantize`)**: Toolkit for quantizing LLMs into the GGUF format across various bit-widths (e.g., `Q4_K_M`, `Q5_K_M`, `Q8_0`).  
    [GitHub: ggerganov/llama.cpp](https://github.com/ggerganov/llama.cpp)  
    **GGUF Format Overview**: *GGUF Specification and Quantization Design* — [GGUF Specification](https://github.com/ggerganov/ggml/blob/master/docs/gguf.md) / [IST-DASLab GPTQ-GGUF Paper](https://github.com/IST-DASLab/gptq-gguf-toolkit)
 
-* **INT8 Quantization Theory & Practice**: Uniform integer quantization maps high-precision floating-point weights ($FP32$/$FP16$) down to $INT8$ precision, offering up to $4\times$ memory footprint reduction with minimal degradation in model accuracy.  
+* **INT8 Quantization**: Uniform integer quantization maps high-precision floating-point weights ($FP32$/$FP16$) down to $INT8$ precision
    **Paper**: *A White Paper on Neural Network Quantization* (Nagel et al., 2021) — [arXiv:2106.08295](https://arxiv.org/abs/2106.08295)  
    **Paper**: *Integer Quantization for Deep Learning Inference: Principles and Empirical Evaluation* (Wu et al., 2020) — [arXiv:2004.09602](https://arxiv.org/abs/2004.09602)
 
 * **Quantization Scheme Comparisons**:  
-   [Hugging Face Quantization Guide & Method Overview](https://huggingface.co/docs/transformers/main_classes/quantization) — Comprehensive comparison comparing `bitsandbytes` ($INT8$/$FP4$), `GPTQ`, `AWQ`, `AQLM`, and `GGUF` precision, speed, VRAM consumption, and quality trade-offs.
+   [Hugging Face Quantization Guide & Method Overview](https://huggingface.co/docs/transformers/main_classes/quantization) — Comprehensive comparison comparing `bitsandbytes` ($INT8$ / $FP4$), `GPTQ`, `AWQ`, `AQLM`, and `GGUF` precision, speed, VRAM consumption, and quality trade-offs.
 
 ---
 ## Bonus: Low VRAM Platforms
 
-* **WanGP (Wan2GP)**: Integrated platform by DeepBeepMeep designed to run video generation models (Wan, HunyuanVideo, LTX, Flux, etc.) efficiently on consumer GPUs with low VRAM footprint.  
+* **WanGP (Wan2GP)**: Integrated platform by DeepBeepMeep designed to run video generation models (Wan, HunyuanVideo, LTX, Flux, etc.) efficiently on consumer GPUs with low VRAM.  
    [GitHub: Decentralised-AI/Wan2GP](https://github.com/Decentralised-AI/Wan2GP)
