@@ -22,7 +22,7 @@ A collection of huggingface models and github repos (with links) I used for priv
 * **Mistral NeMo 12B**:  
    [Hugging Face: mistralai/Mistral-Nemo-Instruct-2407](https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407)
 * **Devstral series**:
-   [Hugging Face: mistralai/Devstral-Small-2505](mistralai/Devstral-Small-2505)
+   [Hugging Face: mistralai/Devstral-Small-2505](https://huggingface.co/mistralai/Devstral-Small-2505)
 ---
 
 
