@@ -25,8 +25,25 @@ A collection of huggingface models and github repos (with links) I used for priv
    [Hugging Face: mistralai/Devstral-Small-2505](https://huggingface.co/mistralai/Devstral-Small-2505)
 ---
 
+---
 
-## 🎙️ 3. Voice Cloning
+## ⚡ 3. VRAM & Attention Optimization Tools
+
+*(Crucial for running large diffusion or language models on modest VRAM setups like an 8GB GPU).*
+
+* **FlashAttention**: An IO-aware exact attention algorithm that drastically speeds up attention computations and reduces memory overhead from quadratic to linear scaling by leveraging GPU hardware hierarchy (SRAM/HBM tiling).  
+   [GitHub: Dao-AILab/flash-attention](https://github.com/Dao-AILab/flash-attention)  
+   **Paper**: *FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness* (Dao et al., 2022) — [arXiv:2205.14135](https://arxiv.org/abs/2205.14135)
+
+* **SageAttention**: A plug-and-play low-bit (8-bit / 4-bit) attention quantization framework that accelerates model inference with virtually no loss in end-to-end metric quality.  
+   [GitHub: aagroup/SageAttention](https://github.com/aagroup/SageAttention)  
+   **Paper**: *SageAttention: Accurate 8-Bit Attention for Plug-and-play Inference Acceleration* (Zhang et al., 2024) — [arXiv:2410.02367](https://arxiv.org/abs/2410.02367)
+
+* **Triton (OpenAI Triton)**: A C-like Python-based programming language and compiler that enables developers to write highly optimized custom GPU kernels without direct low-level CUDA programming.  
+   [GitHub: triton-lang/triton](https://github.com/triton-lang/triton)  
+   **Paper**: *Triton: An Intermediate Language and Compiler for Tile-Based Neural Network Generators* (Tillet et al., 2019) — [MAPL '19 Conference Proceedings](https://dl.acm.org/doi/10.1145/3315508.3329973)
+
+## 🎙️ 4. Voice Cloning
 
 * **RVC (Retrieval-based Voice Conversion)**: Voice conversion framework based on VITS.  
    [GitHub: RVC-Project/Retrieval-based-Voice-Conversion-WebUI](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI)
@@ -36,7 +53,7 @@ A collection of huggingface models and github repos (with links) I used for priv
 
 ---
 
-## 🎨 4. Image Generation
+## 🎨 5. Image Generation
 
 ### Interfaces & Workflows
 * **ComfyUI**: Node-based graphical interface for customizable image generation workflows.  
@@ -78,7 +95,7 @@ A collection of huggingface models and github repos (with links) I used for priv
 
 ---
 
-## 🎭 5. Face Swapping
+## 🎭 6. Face Swapping
 ### Interface
 * **FaceFusion**: Next-generation face swapper and enhancer tool.  
    [GitHub: facefusion/facefusion](https://github.com/facefusion/facefusion)
