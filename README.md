@@ -110,20 +110,18 @@ A collection of huggingface models and github repos (with links) I used for priv
 
 ---
 
----
-
 ## ⚙️ 7. Model Quantization Tools & Resources
 
 * **`llama.cpp` (`llama-quantize`)**: The premier C/C++ engine and toolkit for quantizing LLMs into the GGUF format across various bit-widths (e.g., `Q4_K_M`, `Q5_K_M`, `Q8_0`).  
-  👉 [GitHub: ggerganov/llama.cpp](https://github.com/ggerganov/llama.cpp)  
-  📄 **GGUF Format Overview**: *GGUF Specification and Quantization Design* — [GGUF Specification](https://github.com/ggerganov/ggml/blob/master/docs/gguf.md) / [IST-DASLab GPTQ-GGUF Paper](https://github.com/IST-DASLab/gptq-gguf-toolkit)
+   [GitHub: ggerganov/llama.cpp](https://github.com/ggerganov/llama.cpp)  
+   **GGUF Format Overview**: *GGUF Specification and Quantization Design* — [GGUF Specification](https://github.com/ggerganov/ggml/blob/master/docs/gguf.md) / [IST-DASLab GPTQ-GGUF Paper](https://github.com/IST-DASLab/gptq-gguf-toolkit)
 
 * **INT8 Quantization Theory & Practice**: Uniform integer quantization maps high-precision floating-point weights ($FP32$/$FP16$) down to $INT8$ precision, offering up to $4\times$ memory footprint reduction with minimal degradation in model accuracy.  
-  📄 **Paper**: *A White Paper on Neural Network Quantization* (Nagel et al., 2021) — [arXiv:2106.08295](https://arxiv.org/abs/2106.08295)  
-  📄 **Paper**: *Integer Quantization for Deep Learning Inference: Principles and Empirical Evaluation* (Wu et al., 2020) — [arXiv:2004.09602](https://arxiv.org/abs/2004.09602)
+   **Paper**: *A White Paper on Neural Network Quantization* (Nagel et al., 2021) — [arXiv:2106.08295](https://arxiv.org/abs/2106.08295)  
+   **Paper**: *Integer Quantization for Deep Learning Inference: Principles and Empirical Evaluation* (Wu et al., 2020) — [arXiv:2004.09602](https://arxiv.org/abs/2004.09602)
 
 * **Quantization Scheme Comparisons**:  
-  👉 [Hugging Face Quantization Guide & Method Overview](https://huggingface.co/docs/transformers/main_classes/quantization) — Comprehensive comparison comparing `bitsandbytes` ($INT8$/$FP4$), `GPTQ`, `AWQ`, `AQLM`, and `GGUF` precision, speed, VRAM consumption, and quality trade-offs.
+   [Hugging Face Quantization Guide & Method Overview](https://huggingface.co/docs/transformers/main_classes/quantization) — Comprehensive comparison comparing `bitsandbytes` ($INT8$/$FP4$), `GPTQ`, `AWQ`, `AQLM`, and `GGUF` precision, speed, VRAM consumption, and quality trade-offs.
 
 ---
 ## 🎁 Bonus: Low VRAM Platforms
