@@ -84,14 +84,21 @@ A collection of huggingface models and github repos (with links) I used for priv
    [Hugging Face: SG161222/Realistic_Vision_V5.1_noVAE](https://huggingface.co/SG161222/Realistic_Vision_V5.1_noVAE)
 ---
 
+### Image and Video Video Models
+* **SeedVR2**:
+   [GitHub (Original): ByteDance-Seed/SeedVR](https://github.com/ByteDance-Seed/SeedVR)  
+   [Hugging Face (ComfyUI Integration): numz/SeedVR2_comfyUI](https://huggingface.co/numz/SeedVR2_comfyUI)  
+   **Paper**: *SeedVR2: One-Step Diffusion Model for High-Fidelity Video Restoration* — [arXiv:2506.05301](https://arxiv.org/abs/2506.05301)
+---
+
 ### Video Generators
-* **LTX-Video**: DiT-based real-time video generation model by Lightricks.  
+* **LTX-Video**: by Lightricks.  
    [GitHub: Lightricks/LTX-Video](https://github.com/Lightricks/LTX-Video)  
    [Hugging Face: Lightricks/LTX-Video](https://huggingface.co/Lightricks/LTX-Video)
-* **Wan (Wan2.1 / Wan2.2)**: Open video generation model family developed by Wan-AI.  
+* **Wan (Wan2.1 / Wan2.2)**: by Wan-AI.  
    [GitHub: Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1)  
    [Hugging Face: Wan-AI](https://huggingface.co/Wan-AI)
-* **HunyuanVideo**: High-quality open-source video generation framework by Tencent.  
+* **HunyuanVideo**: by Tencent.  
    [GitHub: Tencent-Hunyuan/HunyuanVideo](https://github.com/Tencent-Hunyuan/HunyuanVideo)  
    [Hugging Face: tencent/HunyuanVideo](https://huggingface.co/tencent/HunyuanVideo)
 
@@ -99,7 +106,7 @@ A collection of huggingface models and github repos (with links) I used for priv
 
 ## 🎭 6. Face Swapping
 ### Interface
-* **FaceFusion**: Next-generation face swapper and enhancer tool.  
+* **FaceFusion**:
    [GitHub: facefusion/facefusion](https://github.com/facefusion/facefusion)
 
 ### Models & Libraries
@@ -107,6 +114,20 @@ A collection of huggingface models and github repos (with links) I used for priv
    [Hugging Face: ApacheOne/insightface (inswapper_128.onnx)](https://huggingface.co/ApacheOne/insightface/blob/main/insightface/inswapper_128.onnx)
 * **InsightFace**: 2D & 3D deep face analysis library for face detection, recognition, and swapping.  
    [GitHub: deepinsight/insightface](https://github.com/deepinsight/insightface)
+
+---
+
+### Face Detection & Segmentation Models
+* **YOLO (YOLOv8 / Ultralytics)**: Fast object detection and face segmentation framework.  
+   [GitHub: ultralytics/ultralytics](https://github.com/ultralytics/ultralytics)
+* **RetinaFace**: High-precision 2D and 3D face detection and alignment model.  
+   [GitHub: deepinsight/insightface (RetinaFace module)](https://github.com/deepinsight/insightface/tree/master/detection/retinaface)
+
+### Face Restoration & Enhancement (Face Fix)
+* **CodeFormer**: Transformer-based face restoration algorithm for low-resolution, degraded, or blurred faces.  
+   [GitHub: sczhou/CodeFormer](https://github.com/sczhou/CodeFormer)
+* **GFP-GAN**: Generative Facial Prior GAN for real-time blind face restoration.  
+   [GitHub: TencentARC/GFPGAN](https://github.com/TencentARC/GFPGAN)
 
 ---
 
@@ -124,7 +145,7 @@ A collection of huggingface models and github repos (with links) I used for priv
    [Hugging Face Quantization Guide & Method Overview](https://huggingface.co/docs/transformers/main_classes/quantization) — Comprehensive comparison comparing `bitsandbytes` ($INT8$/$FP4$), `GPTQ`, `AWQ`, `AQLM`, and `GGUF` precision, speed, VRAM consumption, and quality trade-offs.
 
 ---
-## 🎁 Bonus: Low VRAM Platforms
+## Bonus: Low VRAM Platforms
 
 * **WanGP (Wan2GP)**: Integrated platform by DeepBeepMeep designed to run video generation models (Wan, HunyuanVideo, LTX, Flux, etc.) efficiently on consumer GPUs with low VRAM footprint.  
    [GitHub: Decentralised-AI/Wan2GP](https://github.com/Decentralised-AI/Wan2GP)
