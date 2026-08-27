@@ -3,7 +3,7 @@ A collection of huggingface AI models/libraries and github repos (with links).
 
 ---
 
-## 🛠️ 1. Fine-Tuning Tools
+## 1. Fine-Tuning Tools
 
 * **Kohya_ss (kohya-ss/sd-scripts / gui)**: GUI and training tools for fine-tuning Stable Diffusion and LoRAs.  
    [GitHub: bmaltais/kohya_ss](https://github.com/bmaltais/kohya_ss)
@@ -12,7 +12,7 @@ A collection of huggingface AI models/libraries and github repos (with links).
 
 ---
 
-## 💬 2. Local LLMs (Large Language Models)
+## 2. Local LLMs (Large Language Models)
 
 ### Interface
 * **KoboldCPP**: Lightweight, cross-platform UI and API server for running local LLMs.  
@@ -29,7 +29,7 @@ A collection of huggingface AI models/libraries and github repos (with links).
 ---
 
 
-## ⚡ 3. VRAM & Attention Optimization Tools
+## 3. VRAM & Attention Optimization Tools
 
 *(Crucial for running large diffusion or language models on modest VRAM setups like an 8GB GPU).*
 
@@ -46,7 +46,7 @@ A collection of huggingface AI models/libraries and github repos (with links).
    [GitHub: triton-lang/triton](https://github.com/triton-lang/triton)  
    **Paper**: *Triton: An Intermediate Language and Compiler for Tile-Based Neural Network Generators* (Tillet et al., 2019) [MAPL '19 Conference Proceedings](https://dl.acm.org/doi/10.1145/3315508.3329973)
 
-## 🎙️ 4. Voice Cloning
+## 4. Voice Cloning
 
 * **RVC (Retrieval-based Voice Conversion)**: Voice conversion framework based on VITS.  
    [GitHub: RVC-Project/Retrieval-based-Voice-Conversion-WebUI](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI)
@@ -56,7 +56,7 @@ A collection of huggingface AI models/libraries and github repos (with links).
 
 ---
 
-## 🎨 5. Image Generation
+## 5. Image Generation
 
 ### Interfaces & Workflows
 * **ComfyUI**: Node-based graphical interface for customizable image generation workflows.  
@@ -105,7 +105,7 @@ A collection of huggingface AI models/libraries and github repos (with links).
 
 ---
 
-## 🎭 6. Face Swapping
+## 6. Face Swapping
 ### Interface
 * **FaceFusion**: a convenient GUI to implement inswapper_128 by InsightFace
    [GitHub: facefusion/facefusion](https://github.com/facefusion/facefusion)
@@ -132,7 +132,7 @@ A collection of huggingface AI models/libraries and github repos (with links).
 
 ---
 
-## ⚙️ 7. Model Quantization Tools & Resources
+## 7. Model Quantization Tools & Resources
 
 * **`llama.cpp` (`llama-quantize`)**: Toolkit for quantizing LLMs into the GGUF format across various bit-widths (e.g., `Q4_K_M`, `Q5_K_M`, `Q8_0`).  
    [GitHub: ggerganov/llama.cpp](https://github.com/ggerganov/llama.cpp)  
