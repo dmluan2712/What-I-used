@@ -1,4 +1,4 @@
-# Projects-I-forked-or-used
+# Models and repos I used
 A collection of huggingface models and github repos (with links) I used for private study
 
 ---
